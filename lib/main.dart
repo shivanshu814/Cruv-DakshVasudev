@@ -93,7 +93,7 @@ class App extends StatelessWidget {
                 ),
                 SizedBox(width: 20,),
                 Expanded(
-                  child: ReuasbleCard(seatn: 4, seatpos: 'Lower'),
+                  child: ReuasbleCard(seatn: 7, seatpos: 'Side Lower'),
                 ),
               ],
               ),
@@ -103,17 +103,17 @@ class App extends StatelessWidget {
               child: Row(
                 children: [
                   Expanded(
-                    child: ReuasbleCard(seatn: 5, seatpos: 'Lower'),
+                    child: ReuasbleCard(seatn: 4, seatpos: 'Lower'),
                   ),
                   Expanded(
-                    child: ReuasbleCard(seatn: 6, seatpos: 'Middle'),
+                    child: ReuasbleCard(seatn: 5, seatpos: 'Middle'),
                   ),
                   Expanded(
-                    child: ReuasbleCard(seatn: 7, seatpos: 'Upper'),
+                    child: ReuasbleCard(seatn: 6, seatpos: 'Upper'),
                   ),
                   SizedBox(width: 20,),
                   Expanded(
-                    child: ReuasbleCard(seatn: 8, seatpos: 'Lower'),
+                    child: ReuasbleCard(seatn: 8, seatpos: 'Side Upper'),
                   ),
                 ],
               ),
