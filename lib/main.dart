@@ -29,11 +29,11 @@ class App extends StatelessWidget {
           ),
         ),
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Expanded(
-              flex: 3,
+              flex: 5,
               child: Container(
                 height: 60,
                 decoration: BoxDecoration(
@@ -118,66 +118,7 @@ class App extends StatelessWidget {
                 ],
               ),
             ),
-            Expanded(
-              flex: 10,
-              child: Row(
-                children: [
-                  Expanded(
-                    child: ReuasbleCard(seatn: 9, seatpos: 'Lower'),
-                  ),
-                  Expanded(
-                    child: ReuasbleCard(seatn: 10, seatpos: 'Middle'),
-                  ),
-                  Expanded(
-                    child: ReuasbleCard(seatn: 11, seatpos: 'Upper'),
-                  ),
-                  SizedBox(width: 20,),
-                  Expanded(
-                    child: ReuasbleCard(seatn: 11, seatpos: 'Lower'),
-                  ),
-                ],
-              ),
-            ),
-            Expanded(
-              flex: 10,
-              child: Row(
-                children: [
-                  Expanded(
-                    child: ReuasbleCard(seatn: 12, seatpos: 'Lower'),
-                  ),
-                  Expanded(
-                    child: ReuasbleCard(seatn: 13, seatpos: 'Middle'),
-                  ),
-                  Expanded(
-                    child: ReuasbleCard(seatn: 14, seatpos: 'Upper'),
-                  ),
-                  SizedBox(width: 20,),
-                  Expanded(
-                    child: ReuasbleCard(seatn: 15, seatpos: 'Lower'),
-                  ),
-                ],
-              ),
-            ),
-            Expanded(
-              flex: 10,
-              child: Row(
-                children: [
-                  Expanded(
-                    child: ReuasbleCard(seatn: 16, seatpos: 'Lower'),
-                  ),
-                  Expanded(
-                    child: ReuasbleCard(seatn: 17, seatpos: 'Middle'),
-                  ),
-                  Expanded(
-                    child: ReuasbleCard(seatn: 18, seatpos: 'Upper'),
-                  ),
-                  SizedBox(width: 20,),
-                  Expanded(
-                    child: ReuasbleCard(seatn: 19, seatpos: 'Lower'),
-                  ),
-                ],
-              ),
-            ),
+
       ],
         ),
       ),
