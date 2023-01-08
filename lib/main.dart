@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'constants.dart';
 import 'reusableCard.dart';
-git
+
 void main() {
   runApp(MaterialApp(
     title: "firebase authentication",
